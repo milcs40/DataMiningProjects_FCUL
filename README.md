@@ -12,7 +12,7 @@ The aim was to be creating and answer the following questions:
 - Which products are bought together?
 - Can you find associations highliting that when people buy a product/set of products also buy other product(s)?
 
-Includes the Jupyter Notebook ([`PD_201920-Group_16_Pattern_Mining.ipynb`](PD_201920-Group_16_Pattern_Mining.ipynb) for the Pattern Mining Project.
+Includes the Jupyter Notebook ([`PD_201920-Group_16_Pattern_Mining.ipynb`](PD_201920-Group_16_Pattern_Mining.ipynb)) for the Pattern Mining Project.
 
 ## Project 2 - Clustering
 Make a Python notebook containing the following sections:
