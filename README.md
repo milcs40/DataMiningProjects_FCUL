@@ -1,5 +1,8 @@
 # Data Mining Projects @FCUL
-Group projects for the Data Mining Course @FCUL. Consist of three parts: Pattern Mining; Clustering; Classification and Regression.
+Group projects for the Data Mining Course @FCUL. Consist of three parts: 
+- Pattern Mining
+- Clustering
+- Classification and Regression.
 
 ## Project 1 - Pattern Mining
 In this project we had to use Python 3, Jupyter Notebook and MLxtend. When using MLxtend, frequent patterns can either be discovered using Apriori and FP-Growth. 
