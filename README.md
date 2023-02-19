@@ -31,25 +31,15 @@ In this project we had to use Python 3, Jupyter Notebook and Scikit-learn. We we
 The dataset we analysed was the [`ModifiedHousePrices.csv`](ModifiedHousePrices.csv), a modified version of the train dataset used in Kaggle's competition 
 <a href="https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview"> "House Prices: Advanced Regression Techniques"</a>.
 
-
-
 If you ask a home buyer to describe their dream house, they probably won't begin with the height of the basement ceiling or the proximity to an east-west railroad. But this playground competition's dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence. With more than 70 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this competition challenges you to predict the final price of each home.
 
-This project challenges you twice by asking you to tackle a
+This project challenges you twice with the following tasks:
+- Regression Task: predict the price of a house.
+- Classification Task: predict a price category of a house.
 
-Regression Task: predict the price, and a
-Classification Task: predict a price category.
-The variables are described here.
+The targets we had to predict were:
 
-The targets are:
+- `SalePrice` - the property's sale price in dollars. This is the target variable that we were trying to predict in the regression task (same as in the Kaggle challenge).
+- `Price3Classes` - the price category, where price can be below 200000 ("<200000"), between 200000 and 400000 ("[200000,400000]"), or above 200000 (">200000"). This was the target variable that we were trying to predict in the classification task.
 
-SalePrice - the property's sale price in dollars. This is the target variable that you're trying to predict in the regression task (same as in the Kaggle challenge).
-Price3Classes - the price category, where price can be below 200000 ("<200000"), between 200000 and 400000 ("[200000,400000]"), or above 200000 (">200000"). This is the target variable that you're trying to predict in the classification task.
-
-
-Make a Python notebook containing the following sections:
-- OLAP queries
-- Bottlenecks
-- Do a critical assessment of the full project
-
-Includes the Jupyter Notebook ([`TPD_1920_Project_Phase3_Group20.ipynb`](TPD_1920_Project_Phase3_Group20.ipynb)) for the HuGS-DW.
+Includes the Jupyter Notebook ([`PD_201920_Group_16_ClassifcationRegression.ipynb`](PD_201920_Group_16_ClassifcationRegression.ipynb) for the Pattern Mining Project.
