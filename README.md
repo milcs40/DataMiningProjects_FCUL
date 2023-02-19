@@ -42,4 +42,4 @@ The targets we had to predict were:
 - `SalePrice` - the property's sale price in dollars. This is the target variable that we were trying to predict in the regression task (same as in the Kaggle challenge).
 - `Price3Classes` - the price category, where price can be below 200000 ("<200000"), between 200000 and 400000 ("[200000,400000]"), or above 200000 (">200000"). This was the target variable that we were trying to predict in the classification task.
 
-Includes the Jupyter Notebook ([`PD_201920_Group_16_ClassifcationRegression.ipynb`](PD_201920_Group_16_ClassifcationRegression.ipynb) for the Pattern Mining Project.
+Includes the Jupyter Notebook ([`PD_201920_Group_16_ClassifcationRegression.ipynb`](PD_201920_Group_16_ClassifcationRegression.ipynb)) for the Pattern Mining Project.
