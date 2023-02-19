@@ -15,14 +15,38 @@ The aim was to be creating and answer the following questions:
 Includes the Jupyter Notebook ([`PD_201920-Group_16_Pattern_Mining.ipynb`](PD_201920-Group_16_Pattern_Mining.ipynb)) for the Pattern Mining Project.
 
 ## Project 2 - Clustering
-Make a Python notebook containing the following sections:
-- Dimensions and facts tables of the DW
-- Define an ETL workflow
-- Do a critical assessment of the work
+In this project we had to use use Python 3, Jupyter Notebook and Scikit-learn.
 
-Includes the Jupyter Notebook ([`TPD_1920_Project_Phase2_Group20_V3.ipynb`](TPD_1920_Project_Phase2_Group20_V3.ipynb)) and the star schema ([`HuGs_Star_Schema.png`](HuGs_Star_Schema.png)) for the HuGS-DW.
+The dataset we had to analyse was the [AML_ALL_PATIENTS_GENES_EXTENDED.csv](AML_ALL_PATIENTS_GENES_EXTENDED.csv). This is an extended version of the widely studied Leukemia dataset, originally published by Golub et al. (1999) <a href="https://pubmed.ncbi.nlm.nih.gov/10521349"> "Molecular Classification of Cancer: Class Discovery and Class Prediction by Gene Expression Monitoring" </a>.
+
+This dataset studies patients with leukaemia. At disease onset clinicials diagnosed them in two different types of leukaemia: acute myeloid leukemia (AML) and acute lymphoblastic leukemia (ALL). Some of these diagnoses were later confirmed, other revealed to be wrong. The data analyzed here contains the expression levels of 5147 Human genes (features/columns) analyzed in 110 patients (rows): 70 ALL and 40 AML. Each row identifies a patient: The first column, ID, contains the patients' IDs , the second column, DIAGNOSIS, contains the initial diagnosis as performed by clinicians (ground truth), and the remaining 5147 columns contain the expression levels of the 5147 genes analysed.
+
+The goal was to cluster patients and (ideally) find AML groups and ALL groups.
+
+Includes the Jupyter Notebook ([`PD_201920_Group_16_Clustering.ipynb`](PD_201920_Group_16_Clustering.ipynb)) for the Pattern Mining Project.
 
 ## Project 3 - Classification and Regression
+In this project we had to use Python 3, Jupyter Notebook and Scikit-learn. We were also allowed to use Orange3.
+
+The dataset we analysed was the [`ModifiedHousePrices.csv`](ModifiedHousePrices.csv), a modified version of the train dataset used in Kaggle's competition 
+<a href="https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview"> "House Prices: Advanced Regression Techniques"</a>.
+
+
+
+If you ask a home buyer to describe their dream house, they probably won't begin with the height of the basement ceiling or the proximity to an east-west railroad. But this playground competition's dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence. With more than 70 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this competition challenges you to predict the final price of each home.
+
+This project challenges you twice by asking you to tackle a
+
+Regression Task: predict the price, and a
+Classification Task: predict a price category.
+The variables are described here.
+
+The targets are:
+
+SalePrice - the property's sale price in dollars. This is the target variable that you're trying to predict in the regression task (same as in the Kaggle challenge).
+Price3Classes - the price category, where price can be below 200000 ("<200000"), between 200000 and 400000 ("[200000,400000]"), or above 200000 (">200000"). This is the target variable that you're trying to predict in the classification task.
+
+
 Make a Python notebook containing the following sections:
 - OLAP queries
 - Bottlenecks
